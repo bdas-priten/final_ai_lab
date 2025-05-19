@@ -84,6 +84,16 @@ spouse(X, Y) :-
     X \= Y.
 
 
+
+Term	Description	Example
+Fact	Basic true statement	male(john).
+Predicate	Relation with name and arity	parent/2, father/2
+Rule	Defines predicate in terms of others	father(X,Y) :- parent(X,Y), male(X).
+Variable	Placeholder starting with uppercase	X, Y, Z
+Conjunction	Logical AND (both must be true)	parent(Z,X), parent(Z,Y)
+Inequality	Check not equal	X \= Y
+Query	Question asked to Prolog	sibling(susan, X).
+
 //
 
 ?- ancestor(john, steve).
