@@ -65,3 +65,28 @@ int main() {
 
     return 0;
 }
+
+
+
+/*
+
+Enter number of vertices: 8
+Enter number of edges: 12
+Enter number of colors: 3
+Enter 12 edges (u v) one per line:
+0 1  
+0 2  
+1 2
+1 3
+2 3
+3 4
+4 5
+4 6
+5 6
+5 7
+6 7
+2 6
+
+
+
+*/
