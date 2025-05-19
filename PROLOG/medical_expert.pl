@@ -39,6 +39,9 @@ ask(Symptom) :-
     ((Reply == y ; Reply == yes) -> assertz(yes(Symptom)) ;
      assertz(no(Symptom)), fail).
 
+
+// checkSymptom(malaria).//
+// check. //
 undo :- retract(yes(_)), fail.
 undo :- retract(no(_)), fail.
 undo.
