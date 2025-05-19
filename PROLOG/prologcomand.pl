@@ -57,3 +57,24 @@ child(X, Y) :- parent(Y, X).
 % son and daughter
 son(X, Y) :- child(X, Y), male(X).
 daughter(X, Y) :- child(X, Y), female(X).
+
+
+
+//  father(X, paul). //
+// mother(X, mary). //
+//
+?- father(X, paul).
+?- mother(X, mary).
+?- sibling(X, susan).
+?- brother(X, james).
+?- sister(X, robert).
+?- grandparent(X, steve).
+?- grandfather(X, anna).
+?- grandmother(X, paul).
+?- uncle(X, james).
+?- aunt(X, robert).
+?- cousin(X, steve).
+?- child(X, john).
+?- son(X, paul).
+?- daughter(X, mary).
+//
