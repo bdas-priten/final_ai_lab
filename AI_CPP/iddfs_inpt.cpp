@@ -67,3 +67,26 @@ int main() {
 
     return 0;
 }
+
+
+/*
+
+Number of vertices: 6
+Number of edges: 7
+
+Edges:
+0 1
+0 2
+1 3
+1 4
+2 4
+3 5
+4 5
+
+Start node: 0
+Target node: 5
+Maximum depth: 3
+
+
+
+*/
